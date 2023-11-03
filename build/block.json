@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/biblio-carousel",
+  "version": "0.1.0",
+  "title": "Biblio Carousel",
+  "category": "widgets",
+  "icon": "book",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "biblio-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Search"
+    },
+    "collection": {
+      "type": "string",
+      "default": "adult+fiction"
+    },
+    "searchType": {
+      "type": "string",
+      "default": "bl"
+    }
+  }
+}

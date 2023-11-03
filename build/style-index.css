@@ -1,0 +1,50 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-biblio-carousel {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+h6, p {
+  margin: 0;
+  color: white;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #707070;
+  padding: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.results-container {
+  display: flex;
+}
+
+.carousel-button {
+  all: unset;
+  color: white;
+  cursor: pointer;
+}
+
+.result-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.result-link {
+  all: unset;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
